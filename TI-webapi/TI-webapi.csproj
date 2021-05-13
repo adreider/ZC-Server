@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\TI-Domain\TI-Domain.csproj"/>
+    <ProjectReference Include="..\TI-Repository\TI-Repository.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1"/>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3"/>
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7"/>
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TI_webapi</RootNamespace>
+  </PropertyGroup>
+</Project>
